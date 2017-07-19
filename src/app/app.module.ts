@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ChunkComponent } from './chunk/chunk.component';
+import { CompactComponent } from './compact/compact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChunkComponent
+    ChunkComponent,
+    CompactComponent
   ],
   imports: [
     BrowserModule,
