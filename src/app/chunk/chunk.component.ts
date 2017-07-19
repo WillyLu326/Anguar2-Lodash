@@ -9,12 +9,16 @@ import * as _ from 'lodash';
 })
 export class ChunkComponent implements OnInit {
 
+  array: any[];
+  chunkedArray: any[];
+
+
   constructor() { }
 
   ngOnInit() {
-    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    let chunkedArray = _.chunk(array, 4);
-    console.log(chunkedArray);
+    this.array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    this.chunkedArray = _.chunk(this.array, 4);
+    console.log(this.chunkedArray);
   }
 
 }
