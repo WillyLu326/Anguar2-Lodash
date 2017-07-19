@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ChunkComponent } from './chunk/chunk.component';
 import { CompactComponent } from './compact/compact.component';
+import { ConcatComponent } from './concat/concat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChunkComponent,
-    CompactComponent
+    CompactComponent,
+    ConcatComponent
   ],
   imports: [
     BrowserModule,
